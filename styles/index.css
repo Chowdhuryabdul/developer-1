@@ -103,13 +103,19 @@ nav a {
 }
 
 /* main section css */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section css */
 .about {
     padding: 130px;
     background-color: #FFF8F3;
     margin-top: 116px;
+    margin-bottom: 220px;
 }
-
-/* about section css */
 
 .section-paragraph {
     color: #757575;
@@ -117,4 +123,101 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     padding: 0 170px 0 143px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.about-info {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+/* what i do  */
+#what-i-do-paragraph{
+    padding: 30px 150px;
+}
+
+.skills-container{
+    display: flex;
+    margin-top: 50PX; 
+    gap: 24px;  
+}
+.skill{
+    
+    padding: 30px;
+    border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title{
+    color: #181818;
+    font-size: 20px;  
+    font-weight: 700;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+/* resume section  */
+.resume-container hr{
+margin: 30px 0;
+}
+
+.resume-column-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+margin-top: 30px;
+}
+.resume-item-subtitle{
+    color:#757575;
+font-size: 20px;
+font-weight: 600;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+.resume-item-description{
+    color: #757575;
+font-size: 16px;
+font-weight: 400;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
